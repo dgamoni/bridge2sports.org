@@ -1,0 +1,102 @@
+/*
+ Theme Name:   BridgeIISports
+ Description:  Bridge II Sports Theme
+ Author:       Kyle@GetSkyBound.com	
+ Author URI:   http://example.com
+ Template:     enfold
+ Version:      1.0.0
+*/
+
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+.page-id-3363 #header_main > div, 
+.page-id-4692 #header_main > div,
+.page-id-4699 #header_main > div,
+.page-id-4697 #header_main > div,
+.page-id-4703 #header_main > div,
+.page-id-4696 #header_main > div,
+.page-id-4701 #header_main > div,
+.page-id-4705 #header_main > div,
+.page-id-4694 #header_main > div
+ {
+background: #e8e8e8 !important;
+}
+
+.header_color .main_menu ul:first-child {
+color:#204D91;}
+
+.header_color .main_menu ul:first-child > li a:hover, .header_color .main_menu ul:first-child > li.current-menu-item > a, .header_color .main_menu ul:first-child > li.current_page_item > a { background-color: #204D91; color: white; }
+
+.main_color .avia-icon-list .iconlist_icon {
+    background-color: #204d91;
+}
+
+#menu-item-4720 > a > span.avia-menu-text {
+    color: #204d91;
+}
+
+#menu-item-4720 > a:hover > span.avia-menu-text {
+    color: white; 
+}
+
+#menu-item-4720:active > span.avia-menu-text {
+    color: white; 
+}
+
+#menu-item-4721 > a > span.avia-menu-text {
+    color: #204d91;
+}
+
+#menu-item-4721 > a:hover > span.avia-menu-text {
+    color: white; 
+}
+
+#menu-item-4722 > a > span.avia-menu-text {
+    color: #204d91;
+}
+
+#menu-item-4722 > a:hover > span.avia-menu-text {
+    color: white; 
+}
+
+#menu-item-4723 > a > span.avia-menu-text {
+    color: #204d91;
+}
+
+#menu-item-4723 > a:hover > span.avia-menu-text {
+    color: white; 
+}
+
+#menu-item-4724 > a > span.avia-menu-text {
+    color: #204d91;
+}
+
+#menu-item-4724 > a:hover > span.avia-menu-text {
+    color: white; 
+}
+
+#menu-item-4725 > a > span.avia-menu-text {
+    color: #204d91;
+}
+
+#menu-item-4725 > a:hover > span.avia-menu-text {
+    color: white; 
+}
+
+#menu-item-4726 > a > span.avia-menu-text {
+    color: #204d91;
+}
+
+#menu-item-4726 > a:hover > span.avia-menu-text {
+    color: white; 
+}
+
+#menu-item-4727 > a > span.avia-menu-text {
+    color: #204d91;
+}
+
+#menu-item-4727 > a:hover > span.avia-menu-text {
+    color: white; 
+}
