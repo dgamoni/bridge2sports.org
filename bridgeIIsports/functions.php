@@ -58,12 +58,12 @@ function geodir_detail_page_sidebar_content_sorting_custom()
 	}
 
 }
-add_action(‘init’ , ‘geodir_redirect_to_default_login’) ;
+add_action('init' , 'geodir_redirect_to_default_login') ;
 function geodir_redirect_to_default_login()
 {
 if(isset( $_REQUEST['geodir_signup']))
 {
-  wp_redirect(home_url().’/wp-login.php’);
+  wp_redirect(home_url().'/wp-login.php');
   exit();
 }
 }
@@ -88,4 +88,25 @@ function av_change_logo_url($url)
 
     return $url; 
 
+}
+
+
+add_action('wp_footer', 'add_custom_css');
+function add_custom_css() {
+	global $current_user;
+	?>
+	<script>
+		jQuery(document).ready(function($) {
+
+		});
+	</script>
+	<style>
+		.ubermenu-main {
+		    margin-top: 7px;
+		}
+		.ubermenu-skin-vanilla.ubermenu-responsive-toggle {
+		    margin-top: 5px;
+		}
+	</style>
+	<?php
 }
